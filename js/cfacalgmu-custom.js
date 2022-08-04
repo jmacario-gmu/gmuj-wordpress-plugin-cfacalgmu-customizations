@@ -6,6 +6,6 @@ jQuery(document).ready(function(){
 	//alert('custom js file loaded');
 
 	// Modify href of site logo/title to go to main Hylton site
-	jQuery(".header-titles a").prop("href", "https://cfa.gmu.edu")
+	jQuery(".site-logo a").prop("href", "https://cfa.gmu.edu")
 
 });
