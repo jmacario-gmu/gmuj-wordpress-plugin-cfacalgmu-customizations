@@ -15,7 +15,8 @@ function gmuj_cfacalgmu_c_enqueue_scripts() {
   wp_enqueue_script(
     'gmuj_hyloncalgmu_c_js', //script name
     plugin_dir_url( __DIR__ ).'js/cfacalgmu-custom.js', //path to script
-    array('jquery') //dependencies
+    array('jquery'), //dependencies
+    '1782396205'
   );
 
 }
